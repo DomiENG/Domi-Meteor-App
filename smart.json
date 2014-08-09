@@ -1,6 +1,7 @@
 {
   "packages": {
     "iron-router": {},
-    "jquery-ui": {}
+    "jquery-ui": {},
+    "less-bootstrap-3": {}
   }
 }

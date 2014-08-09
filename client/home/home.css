@@ -1,0 +1,39 @@
+.section-heading{
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.service-heading{
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: 700;
+}
+
+#here{
+	color: #fed136;
+}
+
+.bottomStuff{
+	color: #fed136;
+}
+
+#portfolioModal1 {
+    margin-left: 25px;
+    width: 1000px;
+    height: 800px;
+    padding: 40px;
+}
+
+#portfolioModal2 {
+    margin-left: 25px;
+    width: 1000px;
+    height: 800px;
+    padding: 20px;
+}
+
+#portfolioModal3 {
+    margin-left: 25px;
+    width: 1000px;
+    height: 800px;
+    padding: 40px;
+}

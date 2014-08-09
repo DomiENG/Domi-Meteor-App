@@ -1,4 +1,7 @@
 <template name="home">
+
+<script type="text/javascript" src="home.js"></script>
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,7 +18,7 @@
             <div class="intro-text">
                 <div class="intro-lead-in">Looking for a Helping Hand?</div>
                 <div class="intro-heading">Welcome to Domi</div>
-                <a href="#about" class="page-scroll btn btn-xl">Learn More</a>
+                <a href="#about" class="page-scroll btn btn-xl buttonJQ">Learn More</a>
             </div>
         </div>
     </header>
@@ -58,7 +61,7 @@
         </div><br>
           <div class="container">
             <div style="text-align: center">
-                <a href="#portfolio" class="page-scroll btn btn-xl">Preorder!</a>
+                <a href="#portfolio" class="page-scroll btn btn-xl preorderButton">Preorder!</a>
             </div>
         </div>
     </section>
@@ -282,7 +285,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p class="large text-muted">If you have any more questions regarding our service, feel free to contact us <a href="mailto:mike@trydomi.com" target="_top">here</a>. <br>An FAQ will be up shortly.</p>
+                    <p class="large text-muted">If you have any more questions regarding our service, feel free to contact us <a id="here" href="mailto:mike@trydomi.com" target="_top">here</a>. <br>An FAQ will be up shortly.</p>
                 </div>
             </div>
         </div>
@@ -377,9 +380,9 @@
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline quicklinks">
-                        <li><a href="#">Privacy Policy</a>
+                        <li><a class="bottomStuff" href="#">Privacy Policy</a>
                         </li>
-                        <li><a href="#">Terms of Use</a>
+                        <li><a class="bottomStuff" href="#">Terms of Use</a>
                         </li>
                     </ul>
                 </div>
@@ -582,12 +585,6 @@
                             
                             <button type="button" class="btn" data-dismiss="modal"><i class="fa fa-times"></i> Back</button>
                         </div>
-
-
-
-
-
-
                     </div>
                 </div>
             </div>
