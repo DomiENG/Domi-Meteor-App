@@ -5,14 +5,15 @@ Router.configure({
 
 Router.map(function(){
 	this.route('home', {path:'/'});
-	//this.route('about', {path:'/about'})
 	this.route('signup', {path:'/signup'});
+	this.route('features');
+	this.route('starter');
+	this.route('standard');
+	this.route('plus');
+	this.route('mhome');
 });
 
-/*$('#buttonJQ').click(function(){
-    $('html, body').animate({
-        scrollTop: $( $.attr(this, '#about') ).offset().top
-    }, 500);
-    return false;
-});
-*/
+//if ($(window).width() < 800) {
+          // this.redirect('/mhome');
+      //  }
+
